@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-header {
+    background-color: #627166;
+}
+
+.header-2 .header-bottom {
+    background: #BC9E78;
+    border-radius: 10px;
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+.nlist-item a {
+    color: #fff;
+}
+
+.nlist-item a:hover {
+    color: #f5f5f5;
+}
+
+#mobile-nav {
+    display: none;
+}
+
+.mySwiper{
+
+    margin-top: -25px;
+    min-height: 40vh;
+
+}
+
+.swiper-button-next, .swiper-button-prev {
+    padding: 25px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+.swiper-button-prev:after {
+    font-size: 12px !important;
+    color: #fff;
+}
+.swiper-button-next:after {
+    font-size: 12px !important;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .header-item {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+    }
+
+    #navbar-header {
+        display: none;
+    }
+
+    .desk-header {
+        display: none;
+    }
+
+    .PruductSwiper {
+        height: 30vh;
+    }
+
+}
